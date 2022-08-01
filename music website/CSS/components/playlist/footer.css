@@ -1,0 +1,21 @@
+.footer-player{
+    background: #F1F3F4;
+    height: 6.3rem;
+    width: 65%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+#audioPlayer{
+    width: 65%;
+    position: fixed;
+    bottom: 1px;
+}
+@media screen and (max-width: 414px){
+    .footer-player{
+        width: 100%;
+    }
+    #audioPlayer{
+        width: 100%;
+    }
+}

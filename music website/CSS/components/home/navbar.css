@@ -1,0 +1,31 @@
+/* navbar */
+
+a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    height: 8vh;
+}
+
+.nav-list li a{
+    color: black;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}

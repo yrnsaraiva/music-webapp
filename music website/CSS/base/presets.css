@@ -1,0 +1,20 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css';
+
+* {
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-weight: inherit;
+    font-size: 100%;
+    font-family: 'Manrope', sans-serif;
+}
+
+body{
+   /* background: linear-gradient(to right,#20B0A8 50%, #ea3e3e 50%);*/
+    background: #20B0A8;
+    font-family: sans-serif;
+}

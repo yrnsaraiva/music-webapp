@@ -1,0 +1,16 @@
+/* BASE */
+@import "base/presets.css";
+
+/* COMPONENTS home */
+@import "components/home/navbar.css";
+@import "components/home/player.css";
+
+/* COMPONENTS playlist */
+@import "components/playlist/navbar.css";
+@import "components/playlist/tracklist.css";
+@import "components/playlist/destaques.css";
+@import "components/playlist/footer.css";
+
+/* COMPONENTS information */
+@import "components/information/navbar.css";
+@import "components/information/main.css";

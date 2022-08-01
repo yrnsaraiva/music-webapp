@@ -1,0 +1,93 @@
+/*tracklist*/
+
+
+.left2{
+    position: fixed;
+    height: 100%;
+    width: 538px;
+    border-right: solid  white 2px;
+    margin-left: 0;
+    left: 0;
+}
+
+#PlayList{
+    list-style: none;
+
+}
+#PlayList li a{
+    color: black;
+    text-decoration: none;
+}
+
+#PlayList li{
+    margin-bottom: 15px;
+}
+#PlayList .current-song a{
+    color: #c2cee5;
+    text-shadow:
+            0 0 7px #c2cee5,
+            0 0 10px #c2cee5,
+            0 0 21px #c2cee5,
+            0 0 42px #0fa,
+            0 0 82px #0fa,
+            0 0 92px #0fa,
+            0 0 102px #0fa,
+            0 0 151px #0fa;
+    animation: flicker 1.5s infinite alternate;
+}
+.container{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    margin: 0;
+}
+
+
+.dropbtn{
+    font-size: 2.3rem;
+    position: relative;
+    float: right;
+    margin: 2rem 2rem 2rem 0;
+    cursor: pointer;
+}
+.dropbtn:hover {
+    opacity: 0.7;
+    transition: ease 0.3s;
+}
+
+#dropdown{
+    position: relative;
+    float: right;
+    margin: 2rem;
+}
+#dropdown-content{
+    position: relative;
+    float: right;
+    margin-top: 2rem;
+    cursor: pointer;
+    height: 70px;
+    width: 90px;
+    border: solid black 1px;
+    display: none;
+}
+#dropdown-content a{
+    font-size: 15px;
+    color: black;
+    letter-spacing: 3px;
+    margin-left: 7px;
+}
+
+#dropdown-content a:hover{
+    color: white;
+}
+
+#dropdown:hover #dropdown-content {
+    display: block;
+    transition: ease 0.3s;
+}
+
+@media screen and (width: 414px){
+    .left2{
+        border-right: 0;
+    }
+}

@@ -1,0 +1,19 @@
+.destaques{
+    margin-top: 100px;
+    display: flex;
+    background: #c2cee5;
+    width: 800px;
+    height: 400px;
+    flex-direction: row;
+}
+.item{
+    flex: 1;
+    border: solid black;
+}
+/*
+@media (max-width: 800px) {
+    .destaques {
+        flex-direction: column;
+    }
+}
+*/

@@ -1,0 +1,20 @@
+.about{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 450px;
+    border: solid black;
+}
+.about img{
+    width: 100%;
+}
+.description{
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+}
+.page-title{
+    font-size: 23px;
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
